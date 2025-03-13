@@ -20,7 +20,7 @@ const start = async  () => {
 
         app.listen(port, () => console.log(`server api start in port ${port}`))
     }catch(err){
-        console.log(`Ошибка запуска \n ${err}`)
+        console.log(`Error starting api server \n ${err}`)
     }
 }
 

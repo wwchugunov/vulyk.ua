@@ -1,0 +1,107 @@
+button{
+  
+}
+
+.registerForm input:focus {
+  outline: none; 
+  box-shadow: 6px 1px 20px 1px #a8a8a8;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.bacground {
+  background-color: #F5F1F1;
+  min-height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.formBox {
+  width: 553px;
+  height: 728px;
+  background: #FFFDFD;
+  border-radius: 20px;
+  box-shadow: 6px 1px 20px 1px #d2d8db;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  margin: 0 auto;
+ 
+}
+
+.registerForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.registerForm input:nth-child(1){
+  margin-top:  150px;
+}
+
+.registerForm input {
+  width: 446px;
+  height: 56px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 2px 1px 10px 1px #d2d8db;
+  text-align: center;
+  padding: 10px;
+  color: #B7B7B7;
+}
+
+
+.formBtn{
+  width: 448px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 180px;
+  color: #B7B7B7;
+}
+
+
+.formBtn button::placeholder{
+  color: #B7B7B7;
+  font-size: 20px;
+}
+
+.formBtn button:nth-child(1){
+  height: 56px;
+  width:  256px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 2px 1px 10px 1px #d2d8db;
+  background: white;
+  color: #B7B7B7;
+  font-size: 20px;
+}
+
+.formBtn button:nth-child(2){
+  height: 56px;
+  width:  165px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 2px 1px 10px 1px #d2d8db;
+  background: white;
+  color: #B7B7B7;
+  font-size: 20px;
+}
